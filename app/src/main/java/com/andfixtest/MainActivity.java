@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         textView = (TextView)findViewById(R.id.test_tv);
-        textView.setText("Repair Success!/n 修复成功！！！！");
+        textView.setText("Repair Success!\n 修复成功！！！！");
         testBtn = (Button)findViewById(R.id.test_btn);
         testBtn.setOnClickListener(new View.OnClickListener() {
             @Override
