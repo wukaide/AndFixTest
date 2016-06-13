@@ -33,7 +33,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        System.out.println(">>>是否执行！");
         if(patchDownloadIntent != null){
             stopService(patchDownloadIntent);
         }
