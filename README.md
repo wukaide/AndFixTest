@@ -45,6 +45,6 @@ AndFix原理
 
 -keep class com.alipay.euler.andfix.** { *; }
 
-注意：AndFix只支持修复代码部分，资源文件不支持
+注意：AndFix只支持修复代码部分，资源文件不支持，并且下载的补丁不能删除，在版本更新时，请删除sd卡补丁
 
 框架源码地址：https://github.com/alibaba/AndFix
